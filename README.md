@@ -27,6 +27,7 @@ A simple, full-stack app that displays product lists to showcase event listeners
 
 ## 🧩 Folder Structure
 
+```
 src/
 ├── App.jsx
 ├── App.css
@@ -38,6 +39,7 @@ src/
 │ └── ProductItem.jsx
 public/
 └── index.html
+```
 
 ---
 
