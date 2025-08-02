@@ -10,7 +10,8 @@
     "build": "vite build",
     "lint": "eslint . --ext .js,.jsx",
     "format": "prettier --write .",
-    "preview": "vite preview"
+    "preview": "vite preview", 
+    "start:server": "node src/server.js"
   },
   "dependencies": {
     "axios": "^1.11.0",

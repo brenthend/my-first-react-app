@@ -4,7 +4,7 @@ import sqlite3 from 'sqlite3';
 import cors from 'cors';
 
 const app = express();
-const db = new sqlite3.Database('./my-first-db.db');
+const db = new sqlite3.Database('./db/my-first-db.db');
 
 app.use(cors()); // allow React dev server to access this API
 
